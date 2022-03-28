@@ -1,8 +1,8 @@
-function print(){
+function hello(){
     console.log("Hello World!");
 }
 
-function sum(){
+function SUM(){
     const num1 = parseInt(prompt("Enter Num1 :"));
     const num2 = parseInt(prompt("Enter Num2 :"));
     const summ = num1 + num2;
@@ -25,6 +25,6 @@ function calc(a ,b){
     }
 }
 
-print();
-console.log("Sum of the numbers = ", sum());
-console.log("Operation performed = ", calc(5,6));
+hello();
+console.log(SUM());
+console.log(calc(5,6));
